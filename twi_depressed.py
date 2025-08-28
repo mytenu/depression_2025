@@ -63,7 +63,7 @@ if st.session_state.logged_in and st.session_state.is_admin:
     users = load_users()
     dataset = load_dataset()
 
-    st.subheader("📖 Twi-English Dataset")
+    st.subheader("📖 Twi Depressed Dataset")
     df = pd.DataFrame(dataset)
     st.dataframe(df)
 
