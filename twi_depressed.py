@@ -48,7 +48,7 @@ if 'is_admin' not in st.session_state:
 if 'uploaded_excel' not in st.session_state:   # 🔹 track uploaded excel
     st.session_state.uploaded_excel = None
 
-st.title("📖 Twi Dataset Hub")
+st.title("📖 Twi Depressed Dataset Hub")
 
 # ----------------- ADMIN DASHBOARD -----------------
 if st.session_state.logged_in and st.session_state.is_admin:
